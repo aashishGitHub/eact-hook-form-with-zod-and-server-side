@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.swc/
+.*.env
+target
+dist
+logs
+public
+.cache
+.vscode
+.DS_Store
+.idea
+yarn-error.log
+npm-debug.log
