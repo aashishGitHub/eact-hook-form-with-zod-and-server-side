@@ -33,6 +33,7 @@ const ConditionField = ({
         <input {...register(`data.${index}.name` as const)} />
       )}
       {/* doesn't required shouldUnregister: false */}
+      
       {/* <input
         name={`data[${index}].easyConditional`}
         style={{ display: output[index]?.name === "bill" ? "block" : "none" }}
