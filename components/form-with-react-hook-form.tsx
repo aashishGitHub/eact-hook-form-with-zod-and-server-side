@@ -14,7 +14,6 @@ export default function FormWithReactHookForm() {
 
   const onSubmit = async (data: FieldValues) => {
     // TODO: submit to server
-    // ...
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     reset();
